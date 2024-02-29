@@ -4,37 +4,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css/style.css">
     <title>Sandrine Bouthet</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <img class="m-2" src="assets/images/logo.png" width="70" alt="">
-                <a class="navbar-brand titre" href="index.html">Sandrine Bouthet</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link barre barre-fixe" href="index.html">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link barre" href="presentation.html">Présentation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link barre" href="cours.html">Réalisations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link barre" href="contacts.html">Contacts</a>
-                        </li>
-                    </ul>
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand titre" href="index.html">
+                <img class="m-2" src="assets/images/logo.png" width="70" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link barre barre-fixe" href="index.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link barre" href="./pages/presentation.html">Présentation</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./pages/prestations.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Prestations
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/visite_conseil.html">Visite conseil</a></li>
+                            <li><a class="dropdown-item" href="#">Services 2</a></li>
+                            <li><a class="dropdown-item" href="#">Services 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="./pages/realisations.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Réalisations
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./pages/couloir.html">Le couloir</a></li>
+                            <li><a class="dropdown-item" href="#">Réalisation 2</a></li>
+                            <li><a class="dropdown-item" href="#">Réalisation 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link barre" href="./pages/contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </header>
+
+    <section class="m-2 container-fluid">
+        <section>
+            <div>
+                <div class="d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center">
+                        <h1 class="p-3">Présentation</h1>
+                        <span class="trait"></span>
+                    </div>
+                </div>
+                <div class="m-2 d-flex flex-wrap justify-content-center ">
+                    <div class="col-md-8 p-3 align-self-center text-center" style="box-shadow:2px 2px 5px 5px rgb(156, 160, 156);">
+                        <h2 class="m-2">Bonjour,</h2>
+                            <p class="m-2" >
+                                Je suis Sandrine Bouthet,Vous n’habitez pas dans la région Alpes-Maritimes, profitez de notre prestation à distance pour aménager et décorer votre intérieur.Vous n’habitez pas dans la région Alpes-Maritimes, profitez de notre prestation à distance pour aménager et décorer votre intérieur.
+                            </p>
+                    </div>
+                    <div class="p-3 col-md-4 d-flex align-items-center justify-content-center">
+                            <img src="assets/images/sandrine.jpg" alt="image sandrine" width="300px">
+                    </div>
                 </div>
             </div>
-        </nav>
-        </header>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <div class="d-flex justify-content-start">
+                <a class="mybuton" href="./pages/presentation.html" >En savoir plus</a>
+            </div>
+        </section>
+        <section class="m-2 p-2">
+            <div class="d-flex justify-content-center">
+                <div class="row d-flex justify-content-center">
+                    <h2 class="p-3">Mes services</h2>
+                    <span class="trait"></span>
+                </div>
+            </div>
+            <div class="m-5 p-3 d-flex justify-content-center flex-wrap gap-2">
+                <div class="services">
+                    <span class="p-2 d-flex justify-content-center">
+                        <a href="./pages/visite_conseil.html">
+                        <img src="./assets/images/visuel.png" width="30" height="30"alt="">
+                        </a>
+                    </span>
+                    <h6 class="p-2 d-flex justify-content-center">Visite conseil</h6>
+                    <p class="p-2 d-flex text-center">Description du servives visite conseil.</p>
+                </div>
+                <div class="services">
+                    <span class="p-2 d-flex justify-content-center">
+                        <img src="./assets/images/home.png" width="30" height="30"alt="">
+                    </span>
+                    <h6 class="p-2 d-flex justify-content-center">Service 2</h6>
+                    <p class="p-2 d-flex text-center">Description du servives 2.</p>
+                </div>
+                <div class="services">
+                    <span class="p-2 d-flex justify-content-center">
+                        <img src="./assets/images/3d_cube.png" width="30" height="30"alt="">
+                    </span>
+                    <h6 class="p-2 d-flex justify-content-center">Services 3</h6>
+                    <p class="p-2 d-flex text-center">Description du servives 3.</p>
+                </div>
+                
+            </div>
+            <div class="d-flex justify-content-start">
+                <a class="mybuton" href="./pages/prestations.html" >En savoir plus</a>
+            </div>
+        </section>
+        <section class="p-2 realisation-index">
+            <div class="d-flex justify-content-center">
+                <div class="row d-flex justify-content-center">
+                    <h2 class="p-3">Réalisations</h2>
+                    <span class="trait"></span>
+                </div>
+            </div>
+            <div class="m-5 p-3 d-flex justify-content-center">
+                <div class="grid-portraits">
+                    <div class="fondu">
+                        <a href="./pages/wc.html">
+                        <img src="./assets/images/wc1.jpg" alt="les WC">
+                        <div class="fadedbox">
+                            <div class="title text">Les WC</div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="fondu">
+                        <a href="./pages/couloir.html">
+                        <img src="./assets/images/couloir1.jpg" alt="Le couloir">
+                        <div class="fadedbox">
+                            <div class="title text">Le couloir</div>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="fondu">
+                        <a href="./pages/escalier.html">
+                        <img src="./assets/images/escalier19.jpg" alt="Les escaliers">
+                        <div class="fadedbox">
+                            <div class="title text">Les escaliers</div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-start">
+                <a class="mybuton" href="./pages/realisations.html" >En savoir plus</a>
+            </div>
+        </section>
+    </section>
+
+    <footer class="d-flex flex-wrap justify-content-evenly align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <img class="m-2" src="assets/images/logo.png" width="70" alt="logo">
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="assets/images/instagram.png" width="24" height="24"alt="instagram"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="assets/images/linkedin.png" width="24" height="24"alt="linkedin"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="assets/images/facebook.png" width="24" height="24"alt="facebook"></a></li>
+
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
