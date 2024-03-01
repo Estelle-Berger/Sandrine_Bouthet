@@ -1,17 +1,21 @@
 html{
     max-width: 100%;
+    max-height: 100%;
     overflow-x: hidden;
+}
+header, footer{
+    background-color: #c0e7ae;
 }
 /* ---------page index----------------- */
 .mybuton{
     padding: 5px;
-    background-color: rgb(244, 217, 180);
+    background-color: #8fb77d;
     color: black;
     border: solid 1px ;
     text-decoration: none;
 }
 .services{
-    background-color: antiquewhite;
+    background-color: #41865C;
     width: 300px;
     height: 200px;
     box-shadow: 2px 2px 3px 3px rgb(156, 160, 156);
@@ -85,9 +89,9 @@ html{
     transform: translateY(0px);
     -webkit-transform: translateY(0px);
 }
-.realisation-index{
+/* .realisation-index{
     background-color: antiquewhite;
-}
+} */
 
 
 /* --------page realisation-------
@@ -171,3 +175,6 @@ html{
     border-bottom: solid 2px rgb(145, 184, 169);
     width: 100%;
 }
+/* -----bonus---------- */
+
+

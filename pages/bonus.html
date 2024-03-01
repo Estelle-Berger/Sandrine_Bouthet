@@ -13,7 +13,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand titre" href="../index.html">
-                <img class="m-2" src="../assets/images/logo.png" width="70" alt="logo">
+            <img class="m-2" src="../assets/images/icon/logo.png" width="70" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,15 +23,12 @@
                     <li class="nav-item">
                         <a class="nav-link barre barre-fixe" href="../index.html">Accueil</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link barre" href="./presentation.html">Présentation</a>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="./prestations.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Prestations
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./visite_conseil.html">Visite conseil</a></li>
+                            <li><a class="dropdown-item" href="./prestation/visite_conseil.html">Visite conseil</a></li>
                             <li><a class="dropdown-item" href="#">Services 2</a></li>
                             <li><a class="dropdown-item" href="#">Services 3</a></li>
                         </ul>
@@ -41,10 +38,13 @@
                             Réalisations
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./couloir.html">Le couloir</a></li>
+                            <li><a class="dropdown-item" href="./realisation/couloir.html">Le couloir</a></li>
                             <li><a class="dropdown-item" href="#">Réalisation 2</a></li>
                             <li><a class="dropdown-item" href="#">Réalisation 3</a></li>
                         </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link barre" href="./bonus.html">Bonus</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link barre" href="./contacts.html">Contacts</a>
@@ -53,47 +53,45 @@
             </div>
         </div>
     </nav>
-</header>
-    <section class="m-2 container-fluid">
-        <div class="d-flex justify-content-center">
-            <div class="row d-flex justify-content-center">
-                <h1 class="p-3">Visite conseil</h1>
-                <span class="trait"></span>
-            </div>
-        </div>
-        <div class="m-5 p-3 border ombre">
-            <h2 class="d-flex justify-content-center">Une nouvelle vie à votre intérieur</h2>
-            <p class="text-center">Vous souhaitez changer d’ambiance ou optimiser l’agencement d’une pièce mais vous hésitez sur le choix des couleurs, du mobilier, des luminaires ou des matériaux ?
-                Lors d’un rendez vous de 2h à votre domicile, nous vous apportons des solutions personnalisées à votre intérieur, à votre style de vie, à vos goûts, et adaptées à votre budget.</p>
-        </div>
-        <div class="m-2 d-flex flex-wrap justify-content-center ">
-            <div class="col-md-8 p-3 align-self-center">
-                <h2 class="m-2 p-2 text text-center">Comment se déroule la visite</h2>
-                <p class="m-2">
-                    <ul>
-                        <li>frsgq</li>
-                        <li>gvfsdbds</li>
-                        <li>fdsb</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="p-2 col-md-4 d-flex align-items-center justify-content-center">
-                <img src="../assets/images/logo.png" width="200" alt="">
+    </header>
+    <section>
+        <div class="m-2 p-2 d-flex justify-content-center flex-wrap gap-2">
+            <div class="card" style="width: 18rem;">
+                <a href="./bonus/style_industriel.html">
+                <img src="../assets/images/plaquette/images/style_industriel.jpg" class="card-img-top" width="300" height="300" style="object-fit: cover;" alt="...">
+                </a>
+                <div class="text text-center">
+                    <h4 class="p-2">Style industriel</h4>
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-center">Cette plaquette vous donne des inspirations pour faire une décoration avec un style industriel.</p>
+                </div>
+            </div><div class="card" style="width: 18rem;">
+                <a href="./bonus/style_chic_parisien.html">
+                <img src="../assets/images/plaquette/images/style_chic_parisien.jpg" class="card-img-top" width="300" height="300" style="object-fit: cover;" alt="...">
+                </a>
+                <div class="text text-center">
+                    <h4 class="p-2">Style chic parisien</h4>
+                </div>
+                <div class="card-body">
+                    <p class="card-text text-center">Cette plaquette vous donne des inspirations pour faire une décoration avec un style chic parisien.</p>
+                </div>
             </div>
         </div>
     </section>
+
     <footer class="d-flex flex-wrap justify-content-evenly align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
             <a href="../index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                <img class="m-2" src="../assets/images/logo.png" width="70" alt="logo">
+                <img class="m-2" src="../assets/images/icon/logo.png" width="70" alt="logo">
             </a>
             <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
         </div>
     
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../assets/images/instagram.png" width="24" height="24"alt="instagram"></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../assets/images/linkedin.png" width="24" height="24"alt="linkedin"></a></li>
-            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../assets/images/facebook.png" width="24" height="24"alt="facebook"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../assets/images/icon/instagram.png" width="24" height="24"alt="instagram"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../assets/images/icon/linkedin.png" width="24" height="24"alt="linkedin"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><img src="../assets/images/icon/facebook.png" width="24" height="24"alt="facebook"></a></li>
 
         </ul>
     </footer>
