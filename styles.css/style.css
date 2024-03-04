@@ -9,7 +9,6 @@ header, footer{
 /* ---------page index----------------- */
 .mybuton{
     padding: 5px;
-    /* background-color: #8fb77d; */
     color: #41865C;
     border: solid 1px #8fb77d;
     text-decoration: none;
@@ -89,10 +88,6 @@ header, footer{
     transform: translateY(0px);
     -webkit-transform: translateY(0px);
 }
-/* .realisation-index{
-    background-color: antiquewhite;
-} */
-
 
 /* --------page realisation-------
 --------------portrait------------ 
@@ -104,8 +99,8 @@ header, footer{
     left: 0;
 }
 .fondu-portrait{
-    margin-top: auto;
-    margin-left: auto;
+    /* margin-top: auto;
+    margin-left: auto; */
     width: 200px;
     height: 300px;
     position: relative;
@@ -116,7 +111,9 @@ header, footer{
 .fondu-portrait img.haut-portrait:hover{
     opacity: 0;
 } 
-
+a{
+    color: black;
+}
 
 /* -----paysage----- */
 .bas-paysage, .haut-paysage{
