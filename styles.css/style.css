@@ -8,6 +8,9 @@ header, footer{
 .dropdown:hover .dropdown-menu{
     display: block;
 }
+.dropdown-item a{
+    background-color: none;
+}
 .mybuton{
     padding: 5px;
     color: #41865C;
@@ -22,7 +25,7 @@ header, footer{
 }
 .fondu {
     cursor: pointer;
-    height: 300px;
+    height: 250px;
     position: relative;
     overflow: hidden;
     width: max-content;
@@ -37,7 +40,7 @@ header, footer{
     gap: 25px;
 }
 .grid-portraits img{
-    height: 300px;
+    height: 250px;
     object-fit: cover;
 }
 .grid-paysages{
@@ -48,9 +51,9 @@ header, footer{
     gap: 25px;
 }
 .grid-paysages img{
-    width: 500px;
-    height: 300px;
-    object-fit: fill;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
 } 
 .fondu .fadedbox {
     background-color: #363636;
@@ -104,8 +107,8 @@ header, footer{
     left: 0;
 }
 .fondu-portrait{
-    /* margin-top: auto;
-    margin-left: auto; */
+    margin-top: auto;
+    margin-left: auto;
     width: 200px;
     height: 300px;
     position: relative;
@@ -129,8 +132,8 @@ a{
     object-fit: fill;
 }
 .fondu-paysage{
-    /* margin-top: auto;  
-    margin-left: auto;   */
+    margin-top: auto;  
+    margin-left: auto;  
     width: 500px;
     height: 300px;
     position: relative;
