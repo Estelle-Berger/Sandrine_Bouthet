@@ -23,6 +23,9 @@ header, footer{
     height: 200px;
     box-shadow: 2px 2px 3px 3px rgb(156, 160, 156);
 }
+img{
+    overflow: hidden;
+}
 .fondu {
     cursor: pointer;
     height: 250px;
@@ -37,6 +40,7 @@ header, footer{
     grid-template-columns: 1fr 1fr 1fr;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 25px;
 }
 .grid-portraits img{
@@ -48,10 +52,11 @@ header, footer{
     grid-template-columns: 1fr 1fr;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 25px;
 }
 .grid-paysages img{
-    width: 400px;
+    width: 300px;
     height: 250px;
     object-fit: cover;
 } 
@@ -109,9 +114,11 @@ header, footer{
 .fondu-portrait{
     margin-top: auto;
     margin-left: auto;
-    width: 200px;
+    min-width: 200px;
     height: 300px;
     position: relative;
+    object-fit: cover;
+    overflow: hidden;
 }
 .fondu-portrait img{
     transition: opacity 2s linear;
@@ -134,9 +141,10 @@ a{
 .fondu-paysage{
     margin-top: auto;  
     margin-left: auto;  
-    width: 500px;
+    min-width: 250px;
     height: 300px;
     position: relative;
+    overflow: hidden;
 
 }
 .fondu-paysage img{
@@ -154,7 +162,7 @@ a{
 }
 
 /* --------------media--------- */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 250px) {
     .grid-paysages {
         grid-template-columns: 1fr;
         gap: 15px;
@@ -165,7 +173,7 @@ a{
         gap: 15px;
     }
 }
-@media screen and (max-width: 1250px) {
+/* @media screen and (max-width: 1250px) {
     .grid-paysages {
         grid-template-columns: 1fr;
         gap: 15px;
@@ -175,7 +183,7 @@ a{
         grid-template-columns: 1fr 1fr;
         gap: 15px;
     }
-}
+} */
 
 /* -----bonus---------- */
 
